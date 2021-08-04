@@ -14,3 +14,9 @@
 * The t-test performed on Lot 1's PSI had a p-value of 1, which is higher than the signifigance level of .05 and thus the two means are statistically similar. (https://github.com/awolfe95/MechaCar_Statistical_Analysis/blob/main/t-test%20images/lot1_ttest.png)
 * The t-test performed on Lot 2's PSI had a p-value of .61, which is higher than the signifigance level of .05 and thus the two means are statistically similar. (https://github.com/awolfe95/MechaCar_Statistical_Analysis/blob/main/t-test%20images/lot2_ttest.png) 
 * The t-test performed on Lot 3's PSI had a p-value of .04, which is less than the signifigance level of .05 and thus the two means are not statistically similar. (https://github.com/awolfe95/MechaCar_Statistical_Analysis/blob/main/t-test%20images/lot3_ttest.png)
+
+## Study Design: MechaCar vs Competition
+* One way to compare the performance of MechaCars and other competitors is the average miles per gallon their cars get. This would indicate how efficient MechaCars are compared to other cars. 
+* The null hypothesis for this experiment would be that the there is no difference between the average miles per gallon that MechaCars get comapred to another competitor brand's cars. The alternative hypthesis could be that MechaCars get an average 2 more miles per gallon than another competitors average miles per gallon. 
+* To test this, I would use a two-sample t-Test to see if there is a difference between the distribution means of the two sample groups. 
+* I would need the miles per gallon column from the MechaCars data. Additionally, I would need to chose a competitor and get their car data, including each cars miles per gallon. 
